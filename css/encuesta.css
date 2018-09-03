@@ -1,0 +1,323 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+
+	background-image: url("../img/Quemador-elevado.edi1.jpg");
+	background-size: cover;
+	font-family: 'Comfortaa', cursive;
+}
+div.img{
+
+	width: 30%;
+}
+div.img>img{
+	width: 100%;
+}
+div.name{
+	font-size: 10px;
+	height: 30px;
+	margin-left: 30px;
+	padding-left: 20px;
+	border-left: 2px solid rgba(227,0,0,1);
+	display: flex;
+	align-items: center;
+}
+div.boximg{
+	background: #fff;
+	position: fixed;
+	padding-top: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+div.body{
+	font-size: 15px;
+	color: #fff;
+
+	padding: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: auto;
+	max-width: 1024px;
+}
+div.headencuesta{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+div.headbox{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background: rgba(0,0,0,.7);
+	margin-top: 130px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	max-width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.instrucciones>h3{
+	color: #fff;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	max-width: 1024px;
+	line-height: 25px;
+	letter-spacing: .3px;
+}
+div.body>h3{
+	border-radius: 10px;
+	text-align: center;
+	background: rgba(227,0,0,.8);
+	color: #fff;
+	padding: 25px 10px;
+}
+div.instrucciones{
+	width: 100%;
+}
+div.datoscliente{
+	width: 30%;
+	margin-right: 20px;
+}
+div.nameencuesta{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 60%;
+}
+div.nameencuesta>h2{
+	padding-bottom: 10px;
+	border-bottom: 2px solid rgba(227,0,0,.8);
+	color: #fff;
+	font-size: 30px;
+}
+div.pregunta{
+	margin: 30px 0;
+}
+div.datoscliente input[type='text'],
+div.datoscliente input[type='email']{
+	display: block;
+	width: 100%;
+	color: rgba(133,133,133,.4);
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 5px 5px;
+	border: 2px solid #959595;
+	font-size: 20px;
+
+}
+div.datoscliente input[type='text']:focus,
+div.datoscliente input[type='email']:focus{
+	border: 2px solid rgba(227,0,0,.8);
+}
+div.enviarbox{
+	display: flex;
+	justify-content: space-between;
+}
+div.enviar{
+	margin: 100px 0;}
+
+div.espacio{
+	width: 10px;
+}
+div.pregunta>h4{
+	border-top: 1px solid #fff;
+	padding-top: 10px;
+}
+textarea{
+	background: rgba(255,255,255,.8);
+	font-size: 15px;
+	color: #e53935;
+	padding: 10px 5px;
+	width: 100%;
+	display: block;
+	height: 100px;
+	min-width: 100px;
+	max-width: 700px;
+	min-height: 100px;
+	max-height: 200px;
+	border-radius: 10px;
+	border: none;
+}
+input[type="submit"]{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;  
+
+}
+input[type="number"]{
+	background: rgba(255,255,255,.8);
+	color: #4f4f4f;
+	border:none;
+	height: 30px;
+	padding: 0 5px;
+	font-size: 15px;
+	width: 70px;
+	border-radius: 5px;
+}
+.button{
+	margin-top: 10px;
+	font-size: 20px;
+	padding: 10px 22px;
+	color: white;
+	border-radius: 5px;
+	background: rgba(0,0,0,.8);
+	border: 2px solid #fff;
+	cursor: pointer;
+	letter-spacing: 1.5px;
+}
+select{
+	background: rgba(255,255,255,.8);
+	border-radius: 5px;
+	color: #4f4f4f;
+	font-size: 15px;
+	height: 30px;
+	padding: 0 5px;
+	width: auto;
+	border: none;
+	font-family: 'Cantana One,' serif;
+}
+form input[type="number"]:focus,
+form select:focus,
+form textarea:focus{
+	border: 2px solid #ff0000;
+
+}
+div.autor{
+	border-top: 1px solid #fff;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 50px 0 0 0;
+    background: rgba(0,0,0,.8);
+}
+div.autor>p{
+	font-size: 10px;
+    padding-bottom: 20px;
+	padding-top: 20px;
+	color: #fff;
+	max-width: 1024px;
+}
+div.alert{
+	display: inline-block;
+}
+span.icon-cancel{
+	font-size: 20px;
+	color: #ff2e00;
+}
+span.icon-checkmark2{
+	background: #028600; 
+	border: 1px solid #fff;
+	margin-right: 20px;
+	padding: 10px;
+	border-radius: 100%;
+	font-size: 40px;
+	color: #fff;
+}
+label{
+	margin-left: 10px;
+}
+div.reenviar{
+	background: #f2dede;
+	border: 1px solid #a94442;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	color: #a94442;
+	padding: 20px;
+	margin-bottom: 20px;
+	height: auto;
+	display: inline-block;
+}
+div.succes{
+	border-radius: 10px;
+	color: #fff;
+	border: 1px solid #028600;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	margin-bottom: 20px;
+	height: auto;
+	padding: 30px 20px;
+	background: #4caf50;
+
+}
+span.icon-highly{
+	font-size: 30px;
+}
+/**********      Diseño Responsive    ***********/
+@media screen and (max-width: 500px){
+	div.nameencuesta>h2{
+		font-size: 25px;
+		width: 100%;
+	}
+	div.nameencuesta{
+		width: 100%;
+	}
+	div.instrucciones>h3{
+		padding: 10px 0;
+	}
+	div.body{
+		border-radius: 0;
+	}
+	div.datoscliente{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	div.autor{
+		padding: 0 25px;
+		text-align: center;
+	}
+	textarea{
+		width: 100%;
+	}
+	div.boximg{
+		text-align: center;
+		flex-wrap: wrap;
+	}
+	div.headbox{
+		padding: 20px 20px 0 20px;
+
+	}
+	div.headbox>h3{
+		line-height: 14px;
+	}
+	div.img{
+		width: 40%;
+	}
+	div.name{
+		display: none;
+	}
+
+}
+@media screen and (min-width: 1024px){
+	div.body{
+		border-radius: 10px;
+	}
+	div.headbox{
+		border-radius: 10px;
+		padding-left: 20px;
+		padding-right: 0;
+	}
+	div.img{
+
+	width: 10%;
+}
+}

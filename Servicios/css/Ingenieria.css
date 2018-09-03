@@ -1,0 +1,24 @@
+
+div.banner-servicioP{
+
+	background-image: url("../img/Ingenieria/Ingenieria.jpg");
+	margin-bottom: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+
+}
+@media screen and (min-width: 300px){
+	div.banner-servicioP{
+		padding-top: 10%;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+
+	}
+}
+@media screen and (min-width: 784px){
+	div.banner-servicioP{
+	padding-top: 12%;
+	}
+}

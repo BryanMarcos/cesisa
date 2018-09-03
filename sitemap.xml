@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.cesisa.net/</loc>
+  <lastmod>2018-07-30T17:13:11+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.cesisa.net/index.html</loc>
+  <lastmod>2018-07-30T17:13:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cesisa.net/Servicios/Obra-Metal-Mecanica.html</loc>
+  <lastmod>2018-07-30T16:49:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cesisa.net/Servicios/Obra-Civil.html</loc>
+  <lastmod>2018-07-30T16:49:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cesisa.net/Servicios/Automatizacion.html</loc>
+  <lastmod>2018-07-30T16:47:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cesisa.net/Servicios/Ingenier%C3%ADa.html</loc>
+  <lastmod>2018-07-30T16:49:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cesisa.net/index.php</loc>
+  <lastmod>2018-07-30T17:23:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cesisa.net/cesisa-encuesta.php</loc>
+  <lastmod>2018-07-30T17:23:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

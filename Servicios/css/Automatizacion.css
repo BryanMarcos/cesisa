@@ -1,0 +1,102 @@
+.instrumentacion{
+	width: 100%;
+	color: #000;
+	padding-left: 10%;
+	margin-bottom: 70px;
+}
+div.contacto p{
+	width: 80%;
+}
+div.chat{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #fff;
+}
+.icon-hipchat{
+	font-size: 30px;
+}
+div.banner-servicioA{
+
+	background-image: url("../img/Automatización/Automatización.jpg");
+	margin-bottom: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+
+}
+
+div.aspersion{
+	background: none;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	height: auto;
+	justify-content: space-between;
+}
+div.aspersion ul{
+	list-style: none;
+}
+div.aspersion ul>li{
+	color: #fff;
+	margin-bottom: 20px;
+}
+div.aspersion h6{
+	width: 100%;
+	padding: 10px 0 10px 10px;
+}
+
+@media screen and (min-width: 300px){
+	div.banner-servicioA{
+		padding-top: 10%;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+
+	}
+	div.aspersion{
+	    padding: 5px;
+		width: 100%;
+		border-radius: 10px;
+	}
+	div.aspersion ul>li{
+		display: flex;
+		font-size: 15px;
+	}
+	div.POB{
+		width: 100%;
+	}
+}
+@media screen and (min-width: 784px){
+
+	div.banner-servicioA{
+	padding-top: 12%;
+	}
+	div.POB{
+		padding: 0 20px 0 20px;
+	}
+	.icon-codeigniter{
+		font-size: 40px;
+	}
+	div.aspersion{
+		max-width: 700px;
+		min-width: 300px;
+		margin: 0 10px 10px 0;
+
+		border-radius: 10px;
+	}
+
+}
+@media screen and (min-width: 1024px){
+	div.POB{
+		width: 45%;
+	}
+	div.aspersion{
+		width: 60%;
+	}
+}
+
+

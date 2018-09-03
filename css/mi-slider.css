@@ -1,0 +1,74 @@
+
+
+/*==========================*/
+
+
+.theme-mi-slider .nivoSlider{
+	position:relative;
+	border-radius: 10px;
+	border: 2px solid #232323;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.theme-mi-slider .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+/* Nivo Pagination =========================*/
+
+.nivo-controlNav{
+	display: flex;
+	justify-content: center;
+}
+.theme-mi-slider .nivo-control{
+	z-index: 30;
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: gray;
+	margin: 3px;
+	text-indent: -9999px
+}
+
+.theme-mi-slider .nivo-control:hover{
+	background: #1B1B1B;
+}
+
+.theme-mi-slider .active{
+	background: #DA0000;
+}
+
+/* Nivo direction ============*/
+.nivo-directionNav a{
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+
+.nivo-directionNav .nivo-prevNav{
+	background-image: url(../img/icons/circle-left.png);
+	background-size: cover;
+	text-indent: -9999px;
+	left: 6px;
+}
+
+.nivo-directionNav .nivo-nextNav{
+	background-image: url(../img/icons/circle-right.png);
+	background-size: cover;
+	text-indent: -9999px;
+	right: 6px;
+}
+
+
+/*Nivo Caption*/
+
+.nivo-html-caption{
+	position: absolute;
+}
+@media screen and (max-width: 1000px){
+	.theme-mi-slider .nivo-control{
+		margin-top: 20px;
+	}
+}

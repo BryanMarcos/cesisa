@@ -1,0 +1,90 @@
+.title-fab{
+color: #fff;
+letter-spacing: 1.5px;
+font-family: 'Dosis' , sans-serif;
+}
+div.banner-servicio{
+	background-image: url("../img/Obra-Metal-Mecánica/Obra-Metal-Mecánica.jpg");
+	margin-bottom: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+.contenido{
+	color: #fff;
+	padding: 0 0 0 10px;
+	border-left: 17px solid rgba(210,0,0,1);
+	margin: 0 0 10px 0;
+	width: 100%;
+}
+.fluido{
+	color: #fff;
+	letter-spacing: .5px;
+	margin: 0 0 10px 50px;
+	font-size: 15px;
+	border-bottom: 1px solid #fff;
+}
+@media screen and (max-width: 500px){
+	div.contacto {
+		width: 100%;
+	}
+}
+@media screen and (min-width: 300px){
+	div.banner-servicio{
+		padding-top: 10%;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+
+	}
+	div.title-fab{
+		width: 80%;
+		display: block;
+	}
+	div.title-fab h4{
+		border: 1px solid #fff;
+		margin-top: 10px;
+		max-width: 500px;
+		padding: 10px;
+		background: rgba(0,0,0,.6);
+		color: #fff;
+		font-size: 15px;
+		margin-bottom: 10%;
+	}
+	div.criogenico{
+		width: 90%;
+	}
+
+}
+@media screen and (min-width: 784px){
+	ul.pressure{
+		margin: 20px 10px 20px 10px;
+	}
+
+	div.banner-servicio{
+		padding-top: 12%;
+	}
+	div.title-fab{
+		justify-content: space-between;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		max-width: 1024px;
+	}
+	div.title-fab h2{
+		width: 40%;
+		font-size: 40px;
+	}
+	div.title-fab h4{
+		margin-bottom: 2%;
+		font-size: 20px;
+		padding: 20px;
+	}
+	div.criogenico{
+	width: 45%;
+}
+}
+
+
+
+
