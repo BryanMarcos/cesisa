@@ -565,7 +565,7 @@ div.contacto-form{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	padding: 10px;
 	width: 100%;
-	background: rgba(115,115,115,.8);
+	background: rgba(115,115,115,.5);
 }
 .col3{
 	margin-top: 5px;
@@ -717,7 +717,7 @@ li>span{
 	padding: 10px 5px;
 	font-size: 20px;
 	color: #fff;
-	background: rgba(255,255,255,.3);
+	background: rgba(255,255,255,.09);
 	border: 2px solid #fff;
 }
 form input[type="text"]:focus,
