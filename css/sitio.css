@@ -4,11 +4,13 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;}
+	
 body {
-	background: url('../img/IMG_9231.JPG');
-	background-size: cover;
-	background-attachment: fixed;
-	font-family: 'Open Sans', Arial, sans-serif;}
+	/*background: url('../img/IMG_9231.JPG');*/
+	/*background-size: cover;*/
+	/*background-attachment: fixed;*/
+	font-family: 'Ubuntu', sans-serif;
+}
 a{text-decoration: none;}
 .background{
 	width: 100%;
@@ -61,6 +63,7 @@ div.imgvision{
 	position: relative;
 	display: flex;
 	justify-content: center;
+
 }
 div.imguno{
 	border: 2px solid #626262;
@@ -75,6 +78,7 @@ div.imguno img{
 div.imgdos{
 	border-radius: 10px;
 	position: absolute; 
+
 }
 div.imgdos img{
 	width: 100%;
@@ -104,7 +108,10 @@ div.imgmision img{
 .first{
 	width: 100%;
 	display: flex;
-	flex-wrap: wrap;}
+	align-items: center;
+	flex-wrap: wrap;
+	background: #232323;
+	border-bottom-right-radius: 100%;}
 
 /*++++++++++++++++++++++++++*/
 /*estilos diferente version de quienes somos */
@@ -136,7 +143,6 @@ div.cesisa{
 	margin-bottom: 30px;
 }
 section.nosotros{
-
 	padding: 10px;
 	margin-bottom: 20px;
 }
@@ -203,7 +209,6 @@ div.team img{
 div.team1{
 	background: #da0000;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	border-left: 1px solid #D6D2D2;
 	padding: 10px;
 	border-radius: 10px;
 	width: 65%;
@@ -341,51 +346,83 @@ div.cont a{
 
 /*******************************************************************************************/
 /*Relacion de empresas*/
+div#content-empresas{
+	order: 2;
+}
+div#content-map{
+	order: 1;
+}
 div.contenedor{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-between;
 	width: 100%;
+	position: relative;
+}
+
+div.skew-clientes{
+	width: 60%;
+	height: 500px;
+	border-top: 5px solid #e00000;
+	position: absolute;
+	margin-top: 100px;
+	transform: skewX(20deg);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
 }
 div.fondo{
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	background-color: #fff;
+	z-index: 300;
+	margin-bottom: 100px;
 }
 section.clientes{
-	background: #fff;
-    margin-top: 100px;
+	
+    margin-top: 200px;
     margin-bottom: 100px;
-	width: 60%;
+	width: 100%;
 }
 div.contenedor h3{
 	color: #494949;
 	letter-spacing: 1.5px;
 	font-weight: lighter;
 	font-size: 40px;
-	
+	margin-bottom: 50px;
 	width: 100%;
-	text-align: center;
+	
 }
 div.clientes-slider ul{
-	width: 100%;
+	width: 90%;
+	max-width: 1300px;
+	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
+li.kintel{
+	background-color: #000;
+	padding: 5px 0px 0px 5px;
+	border-radius: 10px;
+}
+
 div.clientes-slider li{
 	display: inline-block;
 }
 div.clientes-slider li{
 	margin-left: 30px;
 	margin-right: 30px;
-	width: 15%;
+	width: 10%;
 	margin-bottom: 20px;
 }
 div.clientes-slider img{
-	width: 100%;
+	width: 90%;
 }
+li img.comesa{
+	width: 70%;
+}
+
 /*---------------------------------------------------------------------------------------------*/
 /********************************************Pie de pagina*/
 .footer{
@@ -432,35 +469,62 @@ div.columna li{
 	width: 100%;
 	display: inline-flex;}
 div.miembros{
-	border-radius: 10px;
-	background-color: #fff;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/	
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	width: 30%;
 }
 div.activo{
+    margin-top: 10px;
 	display: flex;
-	align-items: center;
+	
 }
 div.activo > p{
-	border-left: 4px solid rgba(210,0,0,1);
 	display: inline-block;
-	width: 80%;
-	line-height: 20px;
-	font-size: 15px;
-	margin: 20px 0 20px 0;
+	width: 100%;
+	line-height: 50px;
+	font-size: 40px;
 	padding: 0 0 0 20px;
-	text-align: left;
-	color: #5d5d5d;
+	color: #646464;
 }
 .columna a{text-decoration: none;}
-.flogo{
-	margin: auto;
-	width: 60%;
-	height: auto;}
-.flogo img{width: 100%;}
-.icon-map, .icon-phone, .icon-envelop{
+div.flogo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+	margin-bottom:150px;
+	width: 90%;
+	}
+div.flogo img{
+	width: 50%;
+	background: #fff;
+	border-radius: 5px;
+	border-radius: 10px;
+}
+div.flogop{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: right;
+	width: 90%;	
+}
+p.camara{
+	width: 100%;
+	text-align: right;
+	color: #646464;
+}
+p.transformacion-p{
+	color: #646464;
+	width: 113px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid red;
+}
+.icon-compass2{
+
+	font-size: 40px;
+	color: red;
+
+}
+.icon-map,.icon-phone, .icon-envelop{
 	color: #fff;
 	font-size: 25px;
 	margin-right: 25px;
@@ -491,8 +555,8 @@ div.activo > p{
 	text-align: center;
 	color: #fff;
 	width: 100%;
-	background: #000;
-	padding: 10px 0px 10px 0px;
+	background: #232323;
+	padding: 20px 0px 20px 0px;
 	font-size: 14px;}
 
 
@@ -677,16 +741,24 @@ footer.pre{
 }
 #map {  
         height: 500px;
-        width: 100%;
+        width: 500px;
         border: 1.5px solid white;
+        border-radius: 100%;
+        margin-right: 10px;
+        margin-top: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
        }
+
 .map{
 	display: flex;
 	flex-wrap: wrap;
+    padding-top: 100px;
 	width: 100%;
-
-	margin: auto;
-	justify-content: center;
+	max-width: 1300px;
+	justify-content: space-between;
+	margin-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
 }
 li>span{
 	display: inline-block;
@@ -806,6 +878,29 @@ div.gmap{
 	display: flex;
 	flex-wrap: wrap;
 }
+
+div.addres{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 15%;
+	height: 500px;
+	border-left: 2px solid #e0e0e0;
+	padding-left: 30px;
+}
+div.addres ul > li.map-search{
+	border: none;
+}
+div.addres ul{
+	list-style: none;
+}
+div.addres ul li{
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #e0e0e0;
+	color: #494949;
+}
 div.EncuestaServ{
 	width: 100%;
 	display: flex;
@@ -869,26 +964,10 @@ div.dedo{
 }
 /*---------------------------------------Diseño Responsive----------------------------------------*/
 @media screen and (max-width: 765px){
-
 	footer .datos{
 		justify-content: center;
 	}
-	div.miembros{
-		border-radius: 10px;
-		width: 100%;
-		margin-bottom: 10px;
-		max-width: 350px;
-		
-	}
-	.map{
-		width: 100%;
-	}
-	#map{
-		border-radius: 0px;
-		width: 100%;
-		margin-bottom: 20px;
-	}
-	div.infdir{
+.infdir{
 		width: 100%;
 	}
 	div.contacto{
@@ -898,8 +977,34 @@ div.dedo{
 	span{
 		font-size: 13px;
 	}
+
 }
 @media screen and (max-width: 999px){
+	.map{
+		width: 100%;
+	}
+	#map{
+		border-radius: 0px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	div
+	div.miembros{
+		border-top: 4px solid red;
+		width: 100%;
+		margin-bottom: 10px;		
+	}
+	div.addres{
+		border-top: 4px solid red;
+		background:#232323; 
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 10px;
+	}
+	div.addres ul > li{
+		color: #fff;
+	}
 	/*-------------banner-servicios-------------*/
 	div.mas-detalles h2{
 		font-size: 30px;
@@ -940,7 +1045,23 @@ div.dedo{
 	div.dedo{
 		margin-bottom: 10px;
 	}
-
+    section.clientes{
+		margin-bottom: 0;
+		margin-top: 50px;
+	}
+	div.contenedor{
+		height: auto;
+		margin-bottom: 0;
+	}
+	div.skew-clientes{
+		display: none;
+	}
+	div.contenedor h3{
+		text-align: center;
+	}
+	.map{
+		padding-top: 0;
+	}
     div.service1{
     	flex-wrap: wrap;
     }
@@ -953,6 +1074,9 @@ div.dedo{
 
 	.divformulario{
 		border-radius: 0;
+	}
+	div.mapjs{
+		width: 100%;
 	}
 	div.columna ul{
 		width: 50%;
@@ -984,7 +1108,10 @@ div.dedo{
 
 	section.nos1{
 		margin-top: 50px;
-		width: 100%;}
+		width: 100%;
+		border-radius: 10px;
+		border: 2px solid gray;
+	}
 	section.nos3{width: 100%;}
 	.informacion{
 		margin-top: 10px;
@@ -996,7 +1123,21 @@ div.dedo{
 		width: 100%;
 		margin-right: 10px;
 		border-radius: 10px;}
-	div.flogo{width: 50%;}
+	div.flogo{
+		width: 80%;
+		padding-right: 0;
+		margin-bottom: 0;
+		border: none;}
+    div.addres{
+    	       max-height: 400px;
+		}
+	div.flogo img{
+		width: 20%;
+	}
+	div.flogop{
+		margin-top: 20px;
+		width: 100%;
+	}
 	.fabricacion{display: none;}
 
 
@@ -1145,13 +1286,22 @@ div.dedo{
     div.columna ul{
 		width: 50%;
 	}
+	div.contenedor h3{
+		text-align: center;
+	}
 	footer.pre{
 		background: none;
 	}
 	div.contenedor.maph3 h3{
 		color: #818181;
 	}
-
+    div.flogo img{
+    	width: 60%;
+    	max-width: 150px;
+    }
+    div.activo > p{
+    	font-size: 30px;
+    }
 	.body{
 		background: none;
 	}
@@ -1193,7 +1343,11 @@ div.dedo{
 		margin-top: 30px;
 		font-size: 25px;
 	}
-
+    div.addres{
+    	width: 90%;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
 
 	div.diluvio{
 		flex-wrap: wrap;
@@ -1213,6 +1367,7 @@ div.dedo{
 	}
 	div.box{width: 100%;}
 	section.nos2{flex-wrap: wrap;}
+
 	div.team1{width: 100%;}
 	div.team{
 		width: 50%;
@@ -1225,8 +1380,12 @@ div.dedo{
 	.service h2{
 		font-weight: normal;}
 	div.clientes-slider li{
-		width: 30%;
+		width: 40%;
+		max-width: 120px;
+		margin-left: 0;
+		margin-right: 10px;
 	}
+
 	.central{height: 300px;}
 	body{background: none;}
 	footer .datos .columna ul{width: 100%;}
@@ -1240,7 +1399,9 @@ div.dedo{
     .informacion{padding: 0px;}
     div.miembros{
     	border-radius: 0;
+    	margin: 0 0 50px 0 ;
     }
+    
     }
 
 @media screen and (min-width: 1000px){
@@ -1277,6 +1438,7 @@ div.dedo{
     div.imguno{
     	width: 60%;
     	margin-right: 120px;
+    	position: absolute;
     } 
     div.imgdos{
     	width: 50%;
@@ -1298,10 +1460,14 @@ div.dedo{
     	width: 50%;
     	margin-left: 50px;
     	margin-top: 100px;
+    	border: 2px solid white;
     }
     div.miembros{
-    	max-width: 270px;
-    	margin-right: 10px;
+    	border-top-left-radius: 10px;
+    	border-bottom-left-radius: 10px;
+    	width: 30%;
+    	margin-left: 10px;
+    	z-index: 300;
     }
 	section.nos2{
 		justify-content: space-between;
@@ -1389,9 +1555,15 @@ div.dedo{
 
     .overlay{font-size: 15px;}
     .fisrt{margin-top: 9%;}
+    div.contenedor h3{
+    	padding-left: 80px;
+    }
     }
 
 @media screen and (min-width: 1310px){
+	div.miembros{
+		max-width: 350px;
+	}
 	/*----------banner-servicios--------*/
 	div.mas-detalles{
 		margin-top: 15%;
@@ -1412,6 +1584,7 @@ div.dedo{
 	    align-items: center;
 	    position: relative;
     	max-width: 1400px;
+    	padding-top: 70px;
     }
 	div.enlace a{
 		font-size: 13px;
@@ -1427,9 +1600,11 @@ div.dedo{
     	display: flex;
     	flex-wrap: nowrap;
     	margin-top: 100px;
+    	padding-top: 70px;
     } 
     section.nos3{
     	margin-top: 100px;
+
     } 
     /*-------vision-img-------*/
     div.imguno{
@@ -1449,8 +1624,9 @@ div.dedo{
     		display: flex;
 	        justify-content: space-between;
 	        flex-wrap: nowrap;
-	        margin-top: 170px;
-	        margin-bottom: 150px;
+	        margin-top: 200px;
+	        margin-bottom: 200px;
+	        padding-top: 70px;
     }
     div.imgmision{
     	width: 50%;
@@ -1464,4 +1640,8 @@ div.dedo{
 	    	margin: 0px;}
    
     .servicios{
-    	padding: 2px auto 100px auto;}}
+    	padding: 2px auto 100px auto;}
+    section.nosotros{
+    	max-width: 700px;
+    }
+    }

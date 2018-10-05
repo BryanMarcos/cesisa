@@ -161,6 +161,12 @@
 	div.slider-ser{
 		position: absolute;
 		width: 30%;
+		border: 1px solid #a0a0a0;
 		margin-left: 140px;
+	}
+	div.slider-ser0{
+		position: relative;
+		width: 35%;
+
 	}
 }

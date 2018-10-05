@@ -276,21 +276,106 @@
 	<title>Encuesta de satisfacción al cliente</title>
 	<link rel="stylesheet" type="text/css" href="css/encuesta.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+    <script src="js/jquery-latest.js"></script>
+    <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nivo.slider.js"></script>
+    <script src="js/menu.js"></script>
+    <script type="text/javascript">
+        $(window).on('load' , function(){
+            $('#slider').nivoSlider();
+        });
+    </script>
+	
 </head>
 <body>
+    <div class="encabezado">
+            <!--Encabezado-->
+        <header>
+        <div class="header">
+            <!--Logo cesisa-->
+            <div class="marca" id="logo-ces">
+                <div class="img" id="divimg">
+                    <div class="skewx" id="divskew"></div>
+                    <a class="logo-ces" href="index.php"><img src="img/cesisalogo4.png" alt="logo"></a>
+                </div>
+                <div class="name"><h3>Construcciones especializadas y servicios integrales s.a. de c.v.<h3></div>
+            </div>
+            <div class="menu_bar">
+                <a href="#" class="bt-menu"><span class="fa fa-bars"></span><div class="imgbt"><img src="img/cesisalogo.png" alt=""></div></a>
+            </div>
+            <!--Menu-->
+            <nav id="main-c">
+                <ul>
+                    
+                    <li class="submenu hover inicio-main"><a href="#" class="home start">Inicio<span class="caret fa icon-chevron-thin-up"></span></a>
+                        <ul class="children">
+                            <li class="start-main inicio-submain"><a href="index.php" class="translate-inicio"><span class="fa fa-home"></span>Pagina principal<span class="icon-chevrons-left"></span></a></li>
+                            <li class="start-main"><a href="index.php#quienes-somos" class="translate-inicio">Quienes somos<span class="icon-chevrons-left"></span></a>     </li>
+                            <li class="start-main"><a href="index.php#misión" class="translate-inicio">Nuestra Misión<span class="icon-chevrons-left"></span></a></li>
+                            <li class="start-main"><a href="index.php#visión" class="translate-inicio">Nuestra Visión<span class="icon-chevrons-left"></span></a></li>
+                            <li class="start-main"><a href="index.php#trabajamos-con-ellos" class="translate-inicio">Con quienes hemos trabajado<span class="icon-chevrons-left"></span></a></li>
+                            <li class="start-main"><a href="index.php#donde-nos-ubicamos" class="translate-inicio">Donde nos ubicamos<span class="icon-chevrons-left"></span></a></li>
+                            <li class="start-main"><a href="index.php#contactanos" class="translate-inicio">Contáctanos<span class="icon-chevrons-left"></span></a></li>
 
-		<div class="headencuesta">
-<div class="boximg">
-	<div class="img">
-		<img src="img/cesisalogo.png" alt="logo">
-	</div>
-	<div class="name"><p>Construcciones especializadas y servicios integrales s.a. de c.v.</p></div>
-</div>
-</div>
+                            
+                            
+                        </ul>
+                    </li>
+                    
+                    <li class="submenu hover main-serv">
+                        <a href="#" class="home serv"><!--<span class="fa fa-window-restore"></span>-->Servicios<span class="caret fa icon-chevron-thin-up"></span></a>
+                        <ul class="children">
+                            <!--Obra metal mecanica-->
+                            <li class="next hover">
+                            <a class="font-size" href="Servicios/Obra-Civil.php"><span class="icon-users"> </span>Obra Civil y Edificación</a>
+                                <ul class="two-children">
+                                    <li><a href="Servicios/Obra-Civil.php#Mantenimiento a techumbres">Mantenimiento a techumbres</a></li>
+                                    <li class="margin-bottom"><a href="Servicios/Obra-Civil.php#Construcción de estructuras de concreto">Construcción de estructuras de concreto</a></li>
+                                </ul>
+                            <a class="font-size" href="Servicios/Obra-Metal-Mecanica.php"><span class="icon-cog"></span>Obra Metal Mecánica</a>
+                            <ul class="two-children">
+                                <li><a href="Servicios/Obra-Metal-Mecanica.php#Fabricación de tanques y recipientes">Fabricación de tanques y recipientes</a></li>
+                                <li><a href="Servicios/Obra-Metal-Mecanica.php#Fabricación de estructuras metálicas">Fabricación de Estructuras metálicas</a></li>
+                                <li><a href="Servicios/Obra-Metal-Mecanica.php#Rehabilitación de tuberías de diversas especificaciones">Rehabilitación de tuberías</a></li>
+                                <li><a href="Servicios/Obra-Metal-Mecanica.php#Fabricación de haz de tubos para intercambiadores de calor">Fabricación de haz de tubos para intercambiadores de calor</a></li>
+                            </ul>
+                            </li>
+                            <!--Obra civil y Edificación-->
+                            <!--<li class="next hover"></li>-->
+                            <!--Automatización y control de procesos-->
+                            <li class="next hover"><a class="font-size" href="Servicios/Automatizacion.php"><span class="icon-steam2"></span>Automatización y Control de Procesos</a>
+                                <ul class="two-children">
+                                    <li><a href="Servicios/Automatizacion.php#Diseño, implementación y consultoría">Diseño, implementación y consultoría</a></li>
+                                    <li class="margin-bottom"><a href="Servicios/Automatizacion.php#Redes contra-incendio">Redes contra incendio</a></li>
+                                </ul>
+                                <a class="font-size" href="Servicios/Ingenieria.php"><span class="icon-briefcase"></span>Desarollo de Proyectos de Ingeniería</a>
+                            </li>
+                            <!--Desarrollo de proyectos de ingeniería-->
+                            <!--<li class="next hover"></li>-->
+                            
+                            
+                        </ul>
+                    </li>
+                    
+                    <li class="hover"><a href="valvulas.php" class="home"><!--<span class="fa fa-sitemap"></span>-->Válvulas INBAL</a></li>
+                    <li class="hover"><a href="cesisa-encuesta.php" class="home">Encuesta</a></li>
+                                
+                </ul>
+            </nav>
+            <div class="sociales" id="social-main">
+                <p id="text-social">Sigue todas nuestras redes</p>
+                <a id="social-face" href="https://www.facebook.com/CesisaCoatzacoalcos/"><span class="icon-facebook-with-circle"></span></a>
+                <a id="social-g" href="https://plus.google.com/u/0/b/108573607257751533162/108573607257751533162" target="_blank"><span class="icon-google-with-circle"></span></a>
+            </div>
+        </div>
+    </header></div>
+
 	<form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" >
 	<div class="body">
+
         <div class="headbox">
         <!--Mensaje de envio exitoso-->
         <?php if(!empty($enviado)):?>

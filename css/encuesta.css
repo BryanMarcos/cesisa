@@ -7,13 +7,20 @@
 }
 
 body{
-
-	background-image: url("../img/Quemador-elevado.edi1.jpg");
+	background-image: url('../img/contacto.jpg');
+	
 	background-size: cover;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Ubuntu', sans-serif;
+}
+div.marketing{
+	width: 100%;
+	position: absolute;
+}
+div.marketing img{
+	width: 100%;
+	z-index: 100;
 }
 div.img{
-
 	width: 30%;
 }
 div.img>img{
@@ -39,10 +46,13 @@ div.boximg{
 	justify-content: center;
 	width: 100%;
 }
+a{
+	text-decoration: none;
+}
 div.body{
 	font-size: 15px;
 	color: #fff;
-
+    background: rgba(0,0,0,.7);
 	padding: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin: auto;
@@ -113,7 +123,7 @@ div.datoscliente input[type='text'],
 div.datoscliente input[type='email']{
 	display: block;
 	width: 100%;
-	color: rgba(133,133,133,.4);
+	color: rgba(133,133,133,1);
 	margin-bottom: 10px;
 	border-radius: 5px;
 	padding: 5px 5px;
@@ -302,22 +312,17 @@ span.icon-highly{
 	div.img{
 		width: 40%;
 	}
-	div.name{
-		display: none;
-	}
+	div.name{display: none;}
 
 }
 @media screen and (min-width: 1024px){
 	div.body{
-		border-radius: 10px;
-	}
+		border-radius: 10px;}
+
 	div.headbox{
 		border-radius: 10px;
 		padding-left: 20px;
-		padding-right: 0;
-	}
-	div.img{
+		padding-right: 0;}
 
-	width: 10%;
-}
+	div.img{width: 10%;}
 }

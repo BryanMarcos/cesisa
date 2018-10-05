@@ -1,0 +1,661 @@
+
+/***********************banner inbal-valves**/
+div.content-valves{
+	display: flex;
+	width: 100%;
+	background: #fff;
+	
+}
+div.inbal-banner{
+	position: relative;
+	background-image: url(../img/diluvio.jpg);
+	background-size: cover;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.inbal-banner-background{
+	padding-top: 50px;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+}
+div.inbal-banner img{
+	width: 100%;
+}
+/***********text de banner*/
+div.inbaltext{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	/*position: absolute;*/
+	width: 100%;
+	padding-bottom: 120px;
+
+}
+div.inbaltext h2{
+	letter-spacing: 1.5px;
+    color: #fff;
+	margin-left: 23px;
+	margin-left: 23px;
+	text-align: left;
+}
+h2.text-cien{
+	width: 100%;
+	margin-top: 20px;
+}
+h2.border-red{
+	border-bottom: 3px solid red;
+}
+
+/**********Logo inbal*/
+div.inbal-logo{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	
+}
+div.inbal-logo img{
+	margin-left: 20px;
+	height: 75px;
+	max-height: 100px;
+	max-width: 150px;
+	border-radius: 5px;
+}
+/********Valvulas inbal*/
+/*div.img-valves > img{
+	border-radius: 5px;
+	height: auto;
+}
+div.inbal-valves{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 10px;
+	margin-top: 150px;
+	background: #fff;
+}
+div.img-valves{
+	border-radius: 5px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 18%;
+	max-width: 200px;
+	height: auto;
+}
+div.img-valves a{
+	position: relative;
+	margin-top: 20px;
+	font-size: 13px;
+	width: 100%;
+	
+	color: #000;
+	
+}
+div.subtitle-val{
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	-webkit-position: absolute;
+	-ms-position: absolute;
+	padding: 0 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: .3s;
+	font-family: 'Mukta Malar', sans-serif;
+	font-weight: lighter;
+}
+div.back-uno{
+	background: rgba(255,151,0,.94);
+}
+div.back-dos{
+	background: rgba(71,71,71,.94);
+}
+
+div.subtitle-val:hover{
+	background: rgba(0,0,0,0);
+}
+div.subtitle-val:hover p,
+div.subtitle-val:hover div.skew-title-orange{
+	position: absolute;
+	margin-top: -80px;
+	transition: .3s;
+
+}
+div.subtitle-val:hover div.skew-title-red{
+	position: absolute;
+	margin: -73px 0 0 15px;
+	transition: .3s;
+}
+div.subtitle-val:hover p{
+	padding: 25px 0 0 0;
+	font-weight: lighter;
+	color: #000;
+	margin-left: 35px;
+	border-bottom: 2px solid red;
+}
+
+
+div.subtitle-val:hover{
+	background: rgba(0,0,0,0);
+}
+div.subtitle-val p{
+	z-index: 200;
+	width: 95%;
+	padding: 25px 5px 0 10px;
+	position: absolute;
+	letter-spacing: 1px;
+	font-size: 13px;
+	text-align: left;
+	color: #fff;
+	font-family: 'Patua One', cursive;
+
+}
+
+div.skew-title-red,
+div.skew-title-orange{
+	transform: skewX(-30deg);
+	z-index: 100;
+	position: absolute;
+	-webkit-position: absolute;
+	-moz-position: absolute;
+	-ms-position: absolute;
+	width: 15px;
+	height: 40px;
+}
+div.skew-title-red{
+	margin: 10px 0 0 5px;
+	background: #da0000;
+
+}
+div.skew-title-orange{
+	/*margin: 75px 0 0 45px;
+	background: #ff7000;
+
+
+}*/
+/*Aprobaciones y certificaciones*/
+
+div.aprobaciones h6{
+	text-align: center;
+	width: 100%;
+	font-size: 10px;
+	letter-spacing: .8px;
+	color: #707070;
+	padding-bottom: 20px;
+	font-weight: lighter;
+	
+}
+div.aprobaciones{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	background: #fff;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+div.aprobaciones > div.img-aprob{
+	width: 5%;
+	height: auto;
+	margin-left: 5px;
+}
+div.aprobaciones > div.img-aprob > img{
+	width: 100%;
+	height: auto;
+}
+div.aprobaciones > div.img-aprob >img.short{
+	width: 70%;
+}
+
+/*************acerca de *************/
+section > div.acerca-de{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+div.inbal-logo > h2{
+	letter-spacing: 1px;
+	color: #ff7000;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+section.acerca-de-background{
+	background: #232323;
+	position: relative;
+	width: 100%;
+	padding-bottom: 50px;
+	
+}
+div.acerca-de > article{
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	z-index: 300;
+
+}
+div.article{
+	display: flex;
+	position: relative;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+div.text-description{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+div.img-about{
+	transition: .2s;
+	background: #fff;
+	margin-bottom: 10px;
+	display: flex;
+	border-radius: 10px;
+	justify-content: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.radius{
+	border-radius: 100%;
+}
+img.advantage{
+	border-radius: 10px;
+	margin: auto;
+}
+img.profile{
+	border-radius: 100%;
+	margin: auto;
+	width: 300px;
+	height: 300px;
+}
+
+div.article h2{
+	font-size: 30px;
+	color: #ff7000;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #fff;
+	padding-left: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+}
+div.article > div.text-description > p{
+	padding-left: 20px;
+	line-height: 22px;
+	padding-right: 20px;
+	color: #fff;
+	text-align: justify;
+	display: inline-block;
+}
+div.article > div.text-description > div.text-ver > p{
+	display: inline-block;
+	line-height: 22px;
+	color: #fff;
+}
+div.article > div.text-description > div.text-ver > p.p-red{
+	display: inline-block;
+	font-size: 15px; 
+	line-height: 22px;
+	color: #ff0000;
+	font-weight: bold;
+}
+div.article > div.text-description > div.text-ver{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+}
+div.article > div.text-description ul{
+	line-height: 20px;
+	color: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 15px;
+	list-style: none;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+div.article > div.text-description li{
+	margin-top: 15px;
+}
+div.article > div.text-description > ul > li > span.icon-checkmark2{
+	font-size: 13px;
+	margin-right: 10px;
+	color: red;
+}
+div.img-valve{
+	margin-top: -370px;
+	position: absolute;
+	height: 500px;
+	width: 100%;
+	background-image: url('../img/valve-pint.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 200px 400px;
+}
+
+/*-----------------inbal-valves-----------------*/
+section.content-inbal-valves{
+	margin-top: 130px;
+	width: 100%;
+	max-width: 1400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+section.content-inbal-valves > h2{
+	text-align: center;
+	width: 100%;
+	letter-spacing: 1px;
+	color: #474747;
+	z-index: 200;
+	margin-bottom: 100px;
+}
+div.inbal-valves{
+	width: 80%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: wrap;
+}
+div.img-valves{
+	border: 2px solid red;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 20px;
+	transition: .2s;
+	background: #fff;
+
+}
+
+div.subtitle-val{
+	width: 100%;
+	position: relative;
+}
+div.subtitle-val > h3{
+	color: #474747;
+}
+div.img-valves > img{
+	border-radius: 10px;
+}
+div.description-valve{
+	width: 60%;
+	margin-left: 30px;
+}
+div.description-valve > h3{
+	color: #ff7000;
+	width: auto;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #ff7000;
+}
+
+div.description-valve > a{
+	float: right;
+	letter-spacing: 1px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	color: #ec2a00;
+	transition: .3s;
+	font-size: 12px;
+	padding: 5px 10px;
+	border-radius: 5px;	
+	border: 1px solid white;
+}
+
+span.icon-plus{
+	margin-right: 10px;
+	transition: .3s;
+}
+
+
+div.description-valve > ul > li > h3{
+	color: #727272;
+	margin-top: 10px;
+	font-size: 13px;
+}
+div.description-valve > ul{
+	list-style: none;
+}
+
+/*Responsive design*/
+
+@media screen and (max-width: 600px){
+	div.inbal-valves{
+		width: 100%;
+		justify-content: center;
+	}
+	div.img-valves > img{
+		max-width: 200px;
+	}
+	div.subtitle-val > h3{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 999px){
+	div.img-about{
+		width: 200px;
+		height: 200px;
+	}
+	img.profile{
+		width: 200px;
+		height: 200px;
+	}
+	img.advantage{
+		width: 200px;
+		height: 200px;
+	}
+	div.text-description {
+		width: 400px;
+		border-radius: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		min-width: 250px;
+
+	}
+	div.article h2{
+		font-size: 20px;
+	}
+	div.img-valve{
+		background-size: 100px 200px;
+	}
+	div.background-orange{
+		display: none;
+	}
+	section > div.acerca-de{
+		border-top: 2px solid white;
+		width: 100%;
+	}
+	div.acerca-de > article{
+		width: 100%;
+	}
+	div.article{
+		justify-content: center;
+	}
+	div.inbal-logo{
+	    flex-wrap: wrap;
+	    justify-content: center;
+	    margin-bottom: 18px;
+    }
+    div.inbal-logo > h2{
+	    width: 100%;
+	    border-top: 2px solid white;
+	    font-size: 30px;
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+	    text-align: center;
+    
+    }
+    div.inbal-logo img{
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+    }
+    /*banner*/
+    div.content-valves{
+    	flex-wrap: wrap;
+    	background: #fff;
+    }
+    div.inbal-banner{
+    	width: 100%;
+    	
+    }
+    div.inbaltext h2{
+    	border: none;
+    	font-size: 20px;
+    }
+    div.slider-ser0{
+    	display: none;
+    }
+    section.acerca-de-background{
+    	padding-top: 10px;
+    }
+    section.content-inbal-valves > h2{
+    	padding: 20px 0;
+    	font-size: 30px;
+    }
+    div.img-valves{
+    	width: 100%;
+    	padding: 20px 0 20px 5px;
+    	margin-left: 10px;
+    }
+    div.description-valve{
+    	width: 100%;
+    	max-width: 200px;
+    	display: flex;
+    	flex-wrap: wrap;
+    	margin-right: 30px;
+    }
+    div.description-valve > a{
+    	background: #ec2a00;
+    	color: #fff;
+
+    }
+    div.aprobaciones > div.img-aprob{
+    	width: 13%;
+    }
+    div.aprobaciones h6{
+    	font-size: 15px;
+    }
+
+}
+@media screen and (min-width: 1000px){
+	div.slider-ser0{
+		position: relative;
+		width: 25%;
+		max-width: 350px;
+		margin: 0 auto;
+
+	}
+	div.img-about{
+		width: 300px;
+		height: 300px;
+	}
+	img.advantage{
+		width: 300px;
+		height: 300px;
+	}
+	div.text-description{
+		width: 50%;
+		max-width: 700px;
+		min-width: 300px;
+	}
+	div.article:hover div.background-orange{
+	   transform: translate(X);
+	   transform: translate(-100px);
+	   width: 10px;
+	   height: 300px;
+	   background: #ff7000;
+    }
+    div.background-orange{
+	    transition: .3s;
+    }
+    div.article > div.text-description > p{
+    	font-size: 15px;
+    }
+    div.article > div.text-description > div.text-ver > p{
+    	font-size: 15px;
+    }
+    section > div.acerca-de{
+    	width: 85%;
+    }
+    div.acerca-de > article{
+    	width: 90%;
+    }
+    div.article{
+    	justify-content: space-between;
+    }
+    div.article:hover div.img-about,
+    div.article:hover div.text-description{
+	    box-shadow: 0 4px 8px 0 rgba(255, 112, 0, .9), 0 6px 20px 0 rgba(255, 112, 0, .9);
+    }
+    div.inbal-log{
+    	margin-bottom: 80px;
+    }
+    div.inbal-logo > h2{
+    	font-size: 35px;
+    	width: 50%;
+    	padding-left: 50px;
+    }
+    section.acerca-de-background{
+    	padding-top: 50px;
+    }
+    div.inbal-banner{
+    	width: 75%;
+    }
+    div.inbaltext h2{
+    	font-size: 50px;
+    }
+    section.content-inbal-valves >h2{
+    	font-size: 35px;
+    }
+    div.img-valves > img{
+    	width: 30%;
+    }
+    div.img-valves{
+    	width: 49%;
+	    height: 300px;
+    }
+    div.img-valves:hover{
+	   transform: translateY(-8px);
+	   background: #ff7000;
+	   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+	   border: none;
+    }
+    div.img-valves:hover div.subtitle-val > h3{
+	   color: #fff;
+    }
+    div.img-valves:hover div.description-valve > h3{
+	   color: #fff;
+	   border-bottom: 2px solid white;
+    }
+    div.img-valves:hover div.description-valve > ul > li > h3{
+       color: #fff;
+    }
+    div.img-valves:hover div.description-valve > a{
+	   color: #fff;
+    }
+    div.inbal-banner-background{
+    	border-bottom: 3px solid white;
+	    border-left: 3px solid white;
+	    border-top: 3px solid white;
+    }
+
+}
