@@ -78,7 +78,7 @@ if (isset($_POST['form-metal'])) {
 	<link rel="stylesheet" href="css/Automatizacion.css">
 	<link rel="stylesheet" href="../css/fonts/style.css">
 	<link rel="stylesheet" href="css/Obra-Civil.css">
-	<link rel="stylesheet" href="../css/estilos.css">
+	<link rel="stylesheet" href="../css/main.css">
 	<link rel="stylesheet" href="../css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet"> 
 	<script src="../js/jquery-latest.js"></script>

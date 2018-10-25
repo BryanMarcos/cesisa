@@ -78,7 +78,7 @@ if (isset($_POST['form-civil'])) {
 	<link rel="stylesheet" href="../css/fonts/style.css">
 	<link rel="stylesheet" href="css/Obra-Civil.css">
 	<link rel="stylesheet" href="css/Obra-Metal-Mecanica.css">
-	<link rel="stylesheet" href="../css/estilos.css">
+	<link rel="stylesheet" href="../css/main.css">
 	<link rel="stylesheet" href="../css/font-awesome.min.css">
 	<script src="../js/jquery-latest.js"></script>
 	<script src="../js/menu.js"></script>

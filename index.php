@@ -82,7 +82,7 @@ if (isset($_POST['form-inicio'])) {
 	<link rel="stylesheet" href="css/nivo-slider.css">
 	<link rel="stylesheet" href="css/mi-slider.css">
 	<link rel="shortcut icon" href="img/cesisa.png">
-	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
 	<script src="js/jquery-latest.js"></script>
@@ -106,8 +106,7 @@ if (isset($_POST['form-inicio'])) {
 
 <!--Menu-fondo-->
 <div class="encabezado">
-        	<!--Encabezado-->
-        <header>
+    <header>
 		<div class="header">
 			<!--Logo cesisa-->
 			<div class="marca" id="logo-ces">
@@ -123,7 +122,6 @@ if (isset($_POST['form-inicio'])) {
 			<!--Menu-->
 			<nav id="main-c">
 				<ul>
-					
 					<li class="submenu hover inicio-main"><a href="#" class="home start">Inicio<span class="caret fa icon-chevron-thin-up"></span></a>
 						<ul class="children">
 							<li class="start-main inicio-submain"><a href="index.php" class="translate-inicio"><span class="fa fa-home"></span>Pagina principal<span class="icon-chevrons-left"></span></a></li>
@@ -132,10 +130,7 @@ if (isset($_POST['form-inicio'])) {
 							<li class="start-main"><a href="#visión" class="translate-inicio">Nuestra Visión<span class="icon-chevrons-left"></span></a></li>
 							<li class="start-main"><a href="#trabajamos-con-ellos" class="translate-inicio">Nuestros clientes<span class="icon-chevrons-left"></span></a></li>
 							<li class="start-main"><a href="#donde-nos-ubicamos" class="translate-inicio">Donde nos ubicamos<span class="icon-chevrons-left"></span></a></li>
-							<li class="start-main"><a href="#contactanos" class="translate-inicio">Contáctanos<span class="icon-chevrons-left"></span></a></li>
-
-							
-							
+							<li class="start-main"><a href="#contactanos" class="translate-inicio">Contáctanos<span class="icon-chevrons-left"></span></a></li>	
 						</ul>
 					</li>
 					
@@ -166,14 +161,9 @@ if (isset($_POST['form-inicio'])) {
 									<li class="margin-bottom"><a href="Servicios/Automatizacion.php#Redes contra-incendio">Redes contra incendio</a></li>
 								</ul>
 								<a class="font-size" href="Servicios/Ingenieria.php"><span class="icon-briefcase"></span>Desarollo de Proyectos de Ingeniería</a>
-							</li>
-							<!--Desarrollo de proyectos de ingeniería-->
-							<!--<li class="next hover"></li>-->
-							
-							
+							</li>						
 						</ul>
 					</li>
-					
 					<li class="hover"><a href="valvulas.php" class="home"><!--<span class="fa fa-sitemap"></span>-->Válvulas INBAL</a></li>
 					<li class="hover"><a href="cesisa-encuesta.php" class="home">Encuesta</a></li>
 								
@@ -185,18 +175,20 @@ if (isset($_POST['form-inicio'])) {
 				<a id="social-g" href="https://plus.google.com/u/0/b/108573607257751533162/108573607257751533162" target="_blank"><span class="icon-google-with-circle"></span></a>
 			</div>
 		</div>
-	</header></div>
-    <!--direccion y telefono-->
+	</header>
+</div>
 <!--Contenido-->
 <div class="first">
-	<!--banner-servicios-->
+
+	<!----------------------------------------------banner-servicios-->
 	<div class="banner-servicios">
 		<div class="mas-detalles">
 			<h2>Conoce nuestros diferentes servicios</h2>
-			
 		</div>
 		<img src="img/cesisapage.jpg" alt="servicios-cesisa">
     </div>
+    <!---------------------------------------------------------------->
+
 	<div class="slider-somos" id="quienes-somos" >
 		<div class="slider-ser">
 			<section class="main">
@@ -241,6 +233,7 @@ if (isset($_POST['form-inicio'])) {
 		        				<br><br>Ofreciendo los servicios de:<br><br> Proyectos, Suministros e Instalación, Implementación y/o Actualización de la Automatización de las redes contra incendio, Protección con dispositivos de seguridad, Instalación de sistemas instrumentados de seguridad para protección de bombas y líneas de proceso entre otras, Apegado a las normas nacionales e internacionales vigentes.</p></div></div>
 		        </div>
 	</div>
+
 	<div class="vision-new" id="visión">
 		    <section class="nosotros nos3">
 			
@@ -278,145 +271,6 @@ if (isset($_POST['form-inicio'])) {
 			</div>
 		</section>
 	</div>
-<!--Informacion de la empresa-->
-   <!--<div class="informacion"> -->          
-       <!--<div class="box">-->
-	    <!--<section class="nosotros nos1">
-			
-			<div class="conocenos1">
-				<h2>Misión</h2>
-			</div>
-			<div class="overlay over1">
-	
-	        <div class="text text1">
-	        	<p>Conoce nuestra misión</p><br><br>
-	            <p>REALIZAR TRABAJOS DE ALTA CALIDAD EN BENEFICIO DE LA SEGURIDAD DE NUESTROS CLIENTES EN SUS INSTALACIONES,  POBLACIÓN Y MEDIO AMBIENTE.</p></div>
-			</div>
-		</section>-->		    	     				
-	    <!--<section class="nosotros nos2">
-	    	<div class="cesisa">
-	    		<h2>Construcciones Especializadas y Servicios Integrales S.A. de C.V.</h2>
-	    	</div>
-	    	<div class="team">
-	    		<img src="img/Quemador-elevado.JPG" alt="Quemador-elevado">
-	    	</div>
-	        <div class="team1">
-	        	<div class="conocenos1">
-	        		
-	        			<h2>Quienes somos</h2>
-	        		
-	        	</div>
-	        				<div class="over2 ">
-	        				<div class="text ">
-	        				<p>Somos una Empresa 100% Mexicana, Fundada en el año 2008, Ubicada en la Ciudad de Coatzacoalcos, Ver. México. Dedicada en la mejora continua en la prestación de servicios y venta de Valvulas de Control Marca Inbal para la industria de la transformación.
-	        				<br><br>Ofreciendo los servicios de:<br><br> Proyectos, Suministros e Instalación, Implementación y/o Actualización de la Automatización de las redes contra incendio, Protección con dispositivos de seguridad, Instalación de sistemas instrumentados de seguridad para protección de bombas y líneas de proceso entre otras, Apegado a las normas nacionales e internacionales vigentes.</p></div></div>
-	        </div>-->
-		<!--</section>-->
-		<!--<section class="nosotros nos3">
-			
-			<div class="conocenos1">
-			<h2>Visión</h2>
-			</div>
-			<div class="overlay over3">
-			<div class="text">
-			<p>Conoce nuestra visión</p><br><br>
-			<p>Hacer mas próspera y Productiva la Inversión realizada de nuestros clientes  ofreciéndoles la más Moderna y actualizada Tecnología del Mercado por el mismo Capital de Inversión.</p></div></div>
-		</section>-->
-       <!--</div>-->
-   <!--</div>-->
-
-
-<!---------------------Servicios------------------>
-
- <!--<div id="servicios" class="service">
- 	<div class="service1">
- 	<h2 class="alone">S</h2>
- 	<div class="sig">
- 		<h2>ervicios</h2>
- 	</div>
- 	<div class="EncuestaServ">
- 		<div class="enccal">
- 			<h5>¡Si has sido nuestro cliente y aun no respondes nuestra encuesta de satisfacción!</h5>
- 			
- 			<span class="icon-sad"></span>
- 			<span class="icon-smile"></span>
- 		</div>
- 		<div class="dedo">
- 			<span class="icon-point-down"></span>
- 			<a href="cesisa-encuesta.php" target="_blank" class="button-enc">¡Ház click aqui!</a>
- 		</div>
- 	</div>
- </div></div>-->
-<!--<div class="servicios">
-<div class="blanco">
-	<div class="border">
-		   <div class="cont">
-						<div class="enlace" id="enlace">
-							<a href="Servicios/Obra-Metal-Mecanica.php" itemprop="url">Obra Metal-Mecánica.</a>
-						</div>
-		                </div>
-			<div class="caja">
-		            <div class="picture">
-		            <a href="Servicios/Obra-Metal-Mecanica.php">
-		            <img src="img/servicios/metal-mecanica2.jpg" alt="Obra Metal-Mecanica."></a>
-		            </div>
-					<div class="fabricacion">
-		            <a href="Servicios/Obra-Metal-Mecanica.php"><img src="img/servicios/metal-mecanica.jpg" alt="Obra Metal-Mecanica."></a>
-					</div>
-				  
-			</div>
-	</div>
-	
-	<div class="border">
-		<div class="cont">
-		               <div class="enlace">
-		               	<a href="Servicios/Obra-Civil.php" itemprop="url">Obra Civil y Edificación.</a>
-		               </div>
-		               </div>
-		<div class="caja">
-		        <div class="picture">
-		        <a href="Servicios/Obra-Civil.php"><img src="img/servicios/civil-2.jpg" alt="Obra Civil y Edificación."></a>
-		        </div>
-		            <div class="fabricacion">
-		            <a href="Servicios/Obra-Civil.php"><img src="img/servicios/civil.jpg" alt="Obra Civil y Edificacón."></a>
-		            </div>
-		</div>
-	</div>
-	
-	<div class="border">
-	    <div class="cont">
-			          <div class="enlace">
-			          	<a href="Servicios/Automatizacion.php" itemprop="url">Automatización y Control de Procesos.</a>
-			          </div>
-			                </div>
-			<div class="caja">
-			           <div class="picture">
-			           <a href="Servicios/Automatizacion.php"><img src="img/servicios/control-2.jpg" alt="Automatización y Control de Procesos."></a>
-			           </div>
-			               <div class="fabricacion">
-			                    <a href="Servicios/Automatizacion.php"><img src="img/servicios/control.jpg" alt="Automatización y Control de Procesos."></a>
-			               </div>  
-
-			</div>
-		</div>
-	
- <div class="border">
-           <div class="cont">
-	 			<div class="enlace">		
-	 				<a href="Servicios/Ingenieria.php">Desarrollo de Proyectos de Ingeniería</a>
-	 			</div>
-	 				    </div>
-	 	   <div class="caja">
-	 	                <div class="picture">
-	 	                <a href="Servicios/Ingenieria.php"><img src="img/servicios/ingenieria-2.jpg" alt="Desarrollo de Proyectos de Ingeniería."></a>
-	 					</div>	
-	 				    <div class="fabricacion">
-	 				    	<a href="Servicios/Ingenieria.php"><img src="img/servicios/ingenieria.jpg" alt="Desarrollo de Proyectos de Ingeniería."></a>
-	 					</div>	
-	 				    </div>
-	 </div>
-	 </div>
-</div>-->
    </div><!--first-->
 
 			   
@@ -467,60 +321,45 @@ if (isset($_POST['form-inicio'])) {
      </div>
 
 </div>
-
-
 <!--Pie de pagina-->
-			<div class="map" id="donde-nos-ubicamos">
-			<div class="miembros" id="skew-miembros">
-	             <div class="activo">
-		             <p>Somos miembros activos</p>
+<div class="map" id="donde-nos-ubicamos">
+	<div class="miembros" id="skew-miembros">
+	    <div class="activo">
+		    <p>Somos miembros activos</p>
+	    </div>
+	    <div class="flogo">
+		    <img src="img/canacintra.png" alt="">
+		        <div class="flogop">
+		            <p class="camara">Cámara Nacional de la Industria de la </p>
+		            <p class="transformacion-p">Transformación</p>
 	            </div>
-	            <div class="flogo">
-		            <img src="img/canacintra.png" alt="">
-		            <div class="flogop">
-		             	<p class="camara">Cámara Nacional de la Industria de la </p>
-		            	<p class="transformacion-p">Transformación</p>
-	            	</div>
-	              </div>
-
-                </div>
-				<div class="addres">
-					
-					<ul>
-						<li class="map-search"><span class="icon-compass2"></span></li>
-						<li>Calle Ciprés 101</li>
-						<li>Col. Pensiones del Estado.</li>
-						<li>C.P. 96530</li>
-						<li>Coatzacoalcos, Veracruz.</li>
-					</ul>
-				</div>
-				
-			    	<div class="mapjs">
-
-			    		
-
-
-			    		<div id="map">
-			    					      	</div>
-			    	</div>
-			    		    	
-			    		   <script>
-			    		      function initMap() {
-			         	     var uluru = {lat: 18.147958, lng: -94.482112};
-	   				        var map = new google.maps.Map(document.getElementById('map'), {
-	    			          zoom: 18,
-			    		    	    center: uluru
-		    		     	        });
-			    		         var marker = new google.maps.Marker({
-			    	    	       position: uluru,
-			    		          map: map
-			    		    	   });
-			    		    	   }
-			    		    </script>
-			    		    <script async defer
-			    		    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAptWCIxZ1JYrImuYzwI7Zb2Yrc4SVoST0&callback=initMap">
-			    		   </script>	
-			    		   </div>	
+	    </div>
+     </div>
+	 <div class="addres">
+		<ul>
+		   <li class="map-search"><span class="icon-compass2"></span></li>
+		   <li>Calle Ciprés 101</li>
+		   <li>Col. Pensiones del Estado.</li>
+		   <li>C.P. 96530</li>
+		   <li>Coatzacoalcos, Veracruz.</li>
+		</ul>
+	</div>
+	<div class="mapjs">
+              <div id="map"></div>
+	</div>
+<script>
+	function initMap() {
+    var uluru = {lat: 18.147958, lng: -94.482112};
+    var map = new google.maps.Map(document.getElementById('map'), { 
+    zoom: 18,
+    center: uluru});
+	var marker = new google.maps.Marker({
+    position: uluru,
+	map: map});
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAptWCIxZ1JYrImuYzwI7Zb2Yrc4SVoST0&callback=initMap">
+</script>	
+</div>	
 <section class="footer" id="contactanos">
 
 			<footer>
@@ -540,7 +379,7 @@ if (isset($_POST['form-inicio'])) {
 			     </div>
 			     <div class="columna" id="message-send">
 			     	<h2><span class="icon-hipchat"></span>Envíanos un correo</h2>
-			     	<form action="" class="form-inicio" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
+			     	<form class="form-inicio" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
 			     		<?php if(!empty($errores)):?>
 			     			<div class="alert error">
 			     				<?php echo $errores;?>

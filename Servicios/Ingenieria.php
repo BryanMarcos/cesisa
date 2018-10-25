@@ -79,7 +79,7 @@ if (isset($_POST['form-ing'])) {
 	<link rel="stylesheet" href="../css/fonts/style.css">
 	<link rel="stylesheet" href="../css/sitio.css">
 	<link rel="stylesheet" href="css/Obra-Civil.css">
-	<link rel="stylesheet" href="../css/estilos.css">
+	<link rel="stylesheet" href="../css/main.css">
 	<link rel="stylesheet" href="../css/font-awesome.min.css">
 	<script src="../js/jquery-latest.js"></script>
 	<script src="../js/menu.js"></script>
